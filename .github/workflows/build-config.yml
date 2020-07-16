@@ -9,7 +9,6 @@
 name: Build OpenWrt Config
 
 on:
-  repository_dispatch:
   release:
     types: published
   push:
