@@ -8,14 +8,14 @@
 
 name: Build OpenWrt Config
 
-on:
-  watch:
-    types: [started]
-  push:
-    branches:
-      - master
-    paths:
-      - '.config'
+#on:
+#  watch:
+#    types: [started]
+#  push:
+#    branches:
+#      - master
+#    paths:
+#      - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
